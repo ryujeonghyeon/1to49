@@ -46,16 +46,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         handler.post(new Runnable() {
             @Override
             public void run() {
-        for (int i = 0; i < 40; i++) {
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 5; j++) {
+
                 btn = new Button(getApplicationContext());
 
                 glyt.addView(btn);
 
             }
+        }
 
             }
         });
         }
+
+
 
 
     @Override
